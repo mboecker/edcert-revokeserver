@@ -1,0 +1,6 @@
+[package]
+name = "edcert-server-master"
+version = "0.1.0"
+authors = ["xenor <xenorlawl@gmail.com>"]
+
+[dependencies]
