@@ -1,6 +1,12 @@
 [package]
-name = "edcert-server-master"
+name = "edcert-revokeserver"
 version = "0.1.0"
-authors = ["xenor <xenorlawl@gmail.com>"]
+authors = ["Marvin Böcker <marvin.boecker@tu-dortmund.de>"]
+
+description = "Use this with the crate edcert. This server can be queried if a certificate has been revoked."
+repository = "https://github.com/zombiemuffin/edcert-revokeserver"
+readme = "README.md"
+keywords = ["ed25519", "crypto", "cryptography", "security", "edcert"]
+license = "MIT"
 
 [dependencies]
