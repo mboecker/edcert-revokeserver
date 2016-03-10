@@ -10,3 +10,6 @@ keywords = ["ed25519", "crypto", "cryptography", "security", "edcert"]
 license = "MIT"
 
 [dependencies]
+
+num_cpus = "0.2"
+threadpool = "1.0"
