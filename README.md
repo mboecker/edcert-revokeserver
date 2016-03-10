@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zombiemuffin/edcert-revokeserver.svg?branch=master)](https://travis-ci.org/zombiemuffin/edcert-revokeserver)
+
 # edcert-rejectserver
 A TCP based server, which can be used to verify that a certain certificate has not been rejected.
 
