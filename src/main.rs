@@ -20,8 +20,9 @@ fn main() {
 }
 
 fn handle_stream(mut stream: TcpStream) {
-    // wait 10 seconds max
-    stream.set_read_timeout(Some(Duration::from_secs(10))).expect("Failed to set timeout");
+    // set a timeout duration
+    stream.set_read_timeout(Some(Duration::from_secs(2))).expect("Failed to set read timeout");
+    stream.set_write_timeout(Some(Duration::from_secs(2))).expect("Failed to set write timeout");
 
     // allocate buffer
     let mut buf = [0; 32];
